@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Predictions</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3 fs-2 text-white fw-bold" href="#">Word Prediction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                <a class="nav-link text-danger" href="aim.html">Aim</a>
+              </li> -->
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="scope.html">Scope</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="help.html">Help</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link  text-danger " href="word.html">Add Word</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="paragraphs.html">Add Paragraph</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">
+                            <script>
+                                var d = new Date();
+                                var time = d.getHours();
+
+                                if (time < 12) {
+                                    document.write("<b>Good Morning</b>");
+                                }
+                                if ((time < 17) && (time > 12)) {
+                                    document.write("<b>Good Afternoon</b>");
+                                }
+                                if (time => 17) {
+                                    document.write("<b>Good Evening</b>");
+                                }
+                            </script>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="typewriter">
+        <h1>
+            <span class="text-color1">Please</span>
+            <span class="text-color4">Add</span>
+            <span class="text-color3">Word</span>
+            <span class="text-color2">!</span>
+        </h1>
+    </div>
+    <!-- CONTAINER-1 -->
+    <div class="container">
+        <div class="form-container2 h-50 w-100 p-2">
+            <form action="addWord.php" method="get">
+
+                <div class="main">
+                    <label class="inputLabel fs-1" for="text_field">Text</label><br>
+                    <input class="form-control p-3" name="TEXT" type=" text " id="word " placeholder="Enter a word "></input>
+                </div>
+                <div class="click mx-auto text-center p-1 my-4">
+                    <button class="btn btn-success w-25 fs-5 text-center">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+
+</html>

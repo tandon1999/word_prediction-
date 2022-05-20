@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Predictions</title>
+</head>
+
+<body>
+    <center>
+        <h2 id="mainHeading">Software Engineering CSE3001 Project</h2>
+    </center>
+
+    <div class="typewriter">
+        <h1>
+            <span class="text-color1">Welcome</span>
+            <span class="text-color2">To</span>
+            <span class="text-color3">Word</span>
+            <span class="text-color4">Prediction</span>
+        </h1>
+    </div>
+    <!-- CONTAINER-1 -->
+    <div class="container">
+        <div class="form-container1">
+            <form action="addWord.php" method="get">
+
+                <div class="main">
+                    <label class="inputLabel" for="text_field">Text</label><br>
+                    <textarea class="form-control" name="TEXT" type=" text " id="word " placeholder="Enter a word "></textarea>
+                </div>
+                <div class="click">
+                    <button class="btn1" onclick="addWord()">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="form-container">
+            <div class="form-group">
+                <form id="Form">
+                    <label class="inputLabel" for="text_field1">Text</label>
+                    <button onclick="myFunction()">Copy text</button>
+                    <textarea class="form-control" name="text_field" id="text_field" autocomplete="off" placeholder="Enter Text"></textarea>
+                </form>
+            </div>
+            <div class="button-container"></div>
+
+        </div>
+
+
+    </div>
+
+    <div class="help">
+        <button class="btn"><a href="help.html" target="_blank" rel="noopener noreferrer">Help</a></button>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+
+</html>

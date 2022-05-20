@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Predictions</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3 fs-2 text-white fw-bold" href="#">Word Prediction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                <a class="nav-link text-danger" href="aim.html">Aim</a>
+              </li> -->
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="scope.html">Scope</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="help.html">Help</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link  text-danger " href="word.html">Add Word</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link text-danger" href="paragraphs.html">Add Paragraph</a>
+                    </li>
+                    <li class="nav-item mx-2 fs-5 fonts fw-bold">
+                        <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">
+                            <script>
+                                var d = new Date();
+                                var time = d.getHours();
+                                if (time < 12) {
+                                    document.write("<b>Good Morning</b>");
+                                }
+                                if ((time < 17) && (time > 12)) {
+                                    document.write("<b>Good Afternoon</b>");
+                                }
+                                if (time => 17) {
+                                    document.write("<b>Good Evening</b>");
+                                }
+                            </script>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <center>
+        <h2 id="mainHeading">Software Engineering CSE3001 Project</h2>
+    </center> -->
+
+    <div class="typewriter">
+        <h1>
+            <span class="text-color1">Welcome</span>
+            <span class="text-color2">To</span>
+            <span class="text-color3">Word</span>
+            <span class="text-color4">Prediction</span>
+        </h1>
+    </div>
+    <!-- CONTAINER-1 -->
+    <div class="container">
+
+        <div class="form-container">
+            <div class="form-group mx-2">
+                <form id="Form">
+                    <div class="d-flex">
+                        <label class="inputLabel mx-5 fs-2 fw-bolder mx-auto" for="text_field1">Text</label>
+                        <button class="text-center btn btn-outline-info m-2 p-2 fw-bold" onclick="myFunction()">Copy Text</button>
+                    </div>
+                    <textarea class="form-control m-2 p-3" name="text_field" id="text_field" autocomplete="off" placeholder="Enter Text"></textarea>
+                </form>
+            </div>
+            <div class="button-container"></div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+
+</html>

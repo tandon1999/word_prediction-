@@ -1,0 +1,194 @@
+body {
+    background: rgb(39, 37, 37);
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+#mainHeading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+#suggestionText {
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container .form-container1 {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    /* margin: auto; */
+    width: 100%;
+    border-radius: 50px;
+    height: 35vw;
+    /* height: 320px; */
+    padding: 15px;
+    border: groove white;
+    /* display: block;
+    width: 100%;
+    height: 5px;
+    padding: 15px;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: groove white;
+    border-radius: 15px;
+    transition: border-color .15s */
+}
+
+.container .form-container {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    /* margin: auto; */
+    width: 100%;
+    border-radius: 50px;
+    height: 35vw;
+    /* height: 320px; */
+    padding: 15px;
+    border: groove white;
+    /* display: block;
+    width: 100%;
+    height: 5px;
+    padding: 15px;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: groove white;
+    border-radius: 15px;
+    transition: border-color .15s */
+}
+
+.inputLabel {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.click {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+ ::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.help {
+    text-align: center;
+    font-size: 20px;
+    /* border: groove white; */
+    border-radius: 15px;
+    /* width: fit-content; */
+}
+
+.btn {
+    border-color: black;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.btn:hover {
+    background: rgb(105, 95, 95);
+    text-decoration: solid;
+    color: white;
+    width: 60px;
+}
+
+.inputLabel:hover{
+    color: brown;
+}
+
+.typewriter {
+    margin: auto;
+    width: fit-content;
+}
+
+#Form textarea {
+    width: 100%;
+    height: 25vw;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.main textarea{
+    width: 100%;
+    height: 25vw;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.fonts{
+    font-family: sans-serif;
+}
+
+textarea::after {
+    background-color: blue !important;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: san serif;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 7s steps(50, end) infinite, blink-caret .90s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.text-color1 {
+    color: red;
+}
+
+.text-color2 {
+    color: blue;
+}
+
+.text-color3 {
+    color: wheat;
+}
+
+.text-color4 {
+    color: green;
+}
